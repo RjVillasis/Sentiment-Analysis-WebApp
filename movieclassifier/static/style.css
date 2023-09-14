@@ -1,0 +1,46 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+    
+
+}
+
+.button {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.results-button input[type="submit"] {
+    margin-top: 20px;
+}
+
+.another-button {
+    margin-top: 40px;
+}
+
+/* Add styles for different input sizes */
+.movie-name-input {
+    width: 150px; /* Adjust the width as needed for the review input */
+    min-height: 1.2em; /* Minimum height for one row of text */
+    
+    
+}
+
+.review-input {
+    height: 50px;
+    width: 400px; /* Use 100% to expand to the container width */
+    vertical-align: top;
+    resize: vertical; /* Allow vertical resizing */
+    overflow-wrap: break-word;
+}
+
+.form-field h2 {
+    text-align: left; /* Align the <h2> text to the left */
+    margin-left: 40px; /* Push the text to the right by adding left margin */
+}
